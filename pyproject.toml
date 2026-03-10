@@ -6,8 +6,7 @@ authors = [{ name = "Your Name", email = "you@example.com" }]
 requires-python = ">=3.10,<3.14"
 dependencies = [
     "colorama>=0.4.6",
-    # "crewai[tools]==1.9.3",
-    "crewai[tools] @ git+https://github.com/crewAIInc/crewAI.git@main#subdirectory=lib/crewai",
+    "crewai[google-genai,tools]>= 1.10.1",
     "firecrawl-py>=4.15.0",
     "mcp>=1.23.3",
     "requests>=2.32.5",
